@@ -1,22 +1,36 @@
-/*home container*/
+/* foreground */
+.zf {
+    z-index: 100;
+}
+
+/* background */
+.z1 {
+    z-index: 1;
+}
+
+/* home container */
 #home {
     background-color: #446A46;
 }
 
-/*first container*/
+/* first container */
 #home_1 {
     height: 1022px;
+    background-image: url('/styles/media/bg_mathgreen.svg');
+    background-size: cover;
+    background-position: center;
+    position: relative; 
     background-color: #1A5319;
 }
 
-/*navigation bar*/
+/* navigation bar */
 #menu {
     height: 72px;      
     border: 3px solid black;
     background-color: #80AF81;
 }
 
-/*navigation bar pages*/
+/* navigation bar pages */
 #menu a {
     text-decoration: none;
     color: black;
@@ -25,12 +39,19 @@
     font-size: 20px;
 }
 
-/*welcome mathizens container*/
+/* navigation bar logo */
+#ms_logo {
+    width: 50px;
+    position: relative;
+    top: 4px;
+}
+
+/* welcome mathizens container */
 #wm_container {
     line-height: 140px;
 }
 
-/*welcome mathizens*/
+/* welcome mathizens */
 .wm {
     font-family: Arapey;
     font-size: 192px;
@@ -42,17 +63,17 @@
           -2px -2px 0px black;
 }
 
-/*mathizens*/
+/* mathizens */
 .wm#m {
     color: #BACD92;
 }
 
-/*explore container*/
+/* explore container */
 #exp_container {
     width: 822px;
 }
 
-/*explore paragraphp*/
+/* explore paragraphp */
 #exp {
     font-family: Almarai;
     font-weight: lighter;
@@ -61,13 +82,13 @@
     line-height: 56px;
 }
 
-/*explore mathematics*/
+/* explore mathematics */
 #exp_math {
     font-weight: bold;
     color: #BACD92;
 }
 
-/*sign up button*/
+/* sign up button */
 #su {
     width: 100%;
     height: 64px;
@@ -80,34 +101,34 @@
     background: linear-gradient(to right, #75A47F, #BACD92);
 }
 
-/*advertisement video*/
+/* advertisement video */
 #puto {
     width: 700px;
     height: 684px;
     background-color: lightgray;
 }
 
-/*break 1*/
+/* break 1 */
 #br_1 {
     height: 72px;                 
     border: 3px solid black;
     background-color: white;
 }
 
-/*official website*/
+/* official website */
 #ofc {
     font-family: Arapey;
     font-size: 48px;
     color: black;
 }
 
-/*second container*/
+/* second container */
 #home_2 {
     height: 904px;
     background: linear-gradient(to bottom, #508D4E, #D6EFD8);
 }
 
-/*announcement*/
+/* announcement */
 #ann {
     font-family: Almarai;
     font-size: 85px;
@@ -126,7 +147,7 @@
     font-size: 120px;
 }
 
-/*announcement box*/
+/* announcement box */
 #ann_box {
     width: 1160px;
     height: 560px;
@@ -135,27 +156,26 @@
     border: 1px solid black;
 }
 
-/*announcement arrows*/
+/* announcement arrows */
 .r {
-    background-color: lightgray;
     width: 58px;
     height: 104px;
 }
 
-/*third container*/
+/* third container */
 #home_3 {
     height: 1050px;
     background: linear-gradient(to bottom, #D6EFD8, #80AF81);
 }
 
-/*vission mission container*/
+/* vission mission container */
 #vismis_container {
     position: relative;
     top: -100px;
     height: 77%;
 }
 
-/*vission mission text*/
+/* vission mission text */
 .vismis_text {
     font-family: Arapey;
     font-style: italic;
@@ -171,7 +191,7 @@
     top: 65px;
 }
 
-/*vission mission box*/
+/* vission mission box */
 #vismis_box {
     width: 728px;
     height: 384px;
@@ -185,7 +205,7 @@
     letter-spacing: -0.3px;
 }
 
-/*fourth container*/
+/* fourth container */
 #home_4 {
     height: 1936px;
     border-top: 2px solid black;
@@ -193,6 +213,7 @@
     padding-top: 125px;
 }
 
+/* objective title box */
 #obj_box {
     width: 730px;
     height: 128px;
@@ -202,6 +223,7 @@
     margin-bottom: 90px;
 }
 
+/* objective title */
 #obj_text {
     font-family: Almarai;
     font-size: 57px;
@@ -214,11 +236,13 @@
           -1px -1px 0px black;
 }
 
+/* objectives container */
 #objs_box {
     width: 55.7%;
     text-align: justify;
 }
 
+/* objectives */
 .objs {
     font-family: Almarai;
     font-size: 35px;
@@ -234,21 +258,36 @@
     margin-top: 18px;
 }
 
+/* objective break */
 .objs_br {
     margin-bottom: 25px;
 }
 
+/* bullets */
 .star {
     width: 51px;
     height: 51px;
-    background-color: lightgray;
     margin-right: 30px;
 }
 
-#wave {
-    
-    
+/* footer container */
+#footer {
+    position: relative;
+    top: -50px;
 }
+
+/* footer */
+#foot_fill {
+    background-color: #111B12;
+    height: 327px;
+    position: relative;
+    top: -6px;
+}
+
+
+
+
+
 
 .bgb {
     background-color: black;
