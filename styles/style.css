@@ -1,3 +1,8 @@
+/*home container*/
+#home {
+    background-color: #446A46;
+}
+
 /*first container*/
 #home_1 {
     height: 1022px;
@@ -137,36 +142,125 @@
     height: 104px;
 }
 
+/*third container*/
 #home_3 {
     height: 1050px;
     background: linear-gradient(to bottom, #D6EFD8, #80AF81);
 }
 
+/*vission mission container*/
 #vismis_container {
-    height: 67%;
+    position: relative;
+    top: -100px;
+    height: 77%;
 }
 
+/*vission mission text*/
+.vismis_text {
+    font-family: Arapey;
+    font-style: italic;
+    font-size: 130px;
+    color: white;
+    text-shadow: 
+          1.5px 1.5px 0px black,
+          -1.5px 1.5px 0px black,
+          1.5px -1.5px 0px black,
+          -1.5px -1.5px 0px black;
+    line-height: 130px;
+    position: relative;
+    top: 65px;
+}
+
+/*vission mission box*/
 #vismis_box {
     width: 728px;
     height: 384px;
     background-color: #FCFFE0;
-    border-radius: 88px;
-    border: 1px solid black;
+    border-radius: 67px;
+    border: 1.5px solid black;
+
+    font-family: Almarai;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: -0.3px;
 }
 
-
-
+/*fourth container*/
 #home_4 {
     height: 1936px;
     border-top: 2px solid black;
     background: linear-gradient(to bottom, #508D4E, #000000B2);
+    padding-top: 125px;
+}
+
+#obj_box {
+    width: 730px;
+    height: 128px;
+    border-radius: 61px;
+    border: 2px solid black;
+    background-color: #FCFFE0;
+    margin-bottom: 90px;
+}
+
+#obj_text {
+    font-family: Almarai;
+    font-size: 57px;
+    font-weight: 900;
+    color: #508D4E;
+    text-shadow: 
+          1px 1px 0px black,
+          -1px 1px 0px black,
+          1px -1px 0px black,
+          -1px -1px 0px black;
+}
+
+#objs_box {
+    width: 55.7%;
+    text-align: justify;
+}
+
+.objs {
+    font-family: Almarai;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 
+          0.5px 0.5px 0px black,
+          -0.5px 0.5px 0px black,
+          0.5px -0.5px 0px black,
+          -0.5px -0.5px 0px black;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    margin-top: 18px;
+}
+
+.objs_br {
+    margin-bottom: 25px;
+}
+
+.star {
+    width: 51px;
+    height: 51px;
+    background-color: lightgray;
+    margin-right: 30px;
+}
+
+#wave {
+    
+    
 }
 
 .bgb {
     background-color: black;
 }
 
+.lg {
+    background-color: gray;
+}
 
+.red {
+    background-color: red;
+}
 
 
 
