@@ -270,24 +270,10 @@
     margin-right: 30px;
 }
 
-/* footer container */
-#footer {
+#wave {
     position: relative;
-    top: -50px;
+    top: 0px;
 }
-
-/* footer */
-#foot_fill {
-    background-color: #111B12;
-    height: 327px;
-    position: relative;
-    top: -6px;
-}
-
-
-
-
-
 
 .bgb {
     background-color: black;
@@ -300,6 +286,8 @@
 .red {
     background-color: red;
 }
+
+
 
 
 
