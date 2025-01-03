@@ -8,6 +8,10 @@
     z-index: 1;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* home container */
 #home {
     background-color: #446A46;
@@ -191,6 +195,18 @@
     top: 65px;
 }
 
+#star41 {
+    position: relative;
+    top: 15px;
+    left: 185px;
+}
+
+#star42 {
+    position: relative;
+    top: 15px;
+    left: 150px;
+}
+
 /* vission mission box */
 #vismis_box {
     width: 728px;
@@ -270,9 +286,144 @@
     margin-right: 30px;
 }
 
-#wave {
+#footer {
+    height: 600px;
+    top: 4384px;
+    position: absolute;
+    background-color: #111B12;
+    z-index: 1;
+    font-family: Almarai;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: -1.3px;
+}
+
+#contus {
+    color: #D6EFD8;
+    font-size: 96px;
+}
+
+#ftms {
+    width: 200px;
+    height: 199px;
+}
+
+#ftbsu {
+    width: 110px;
+    height: 10px;
     position: relative;
+}
+
+#ftcs {
+    width: 110px;
+    height: 10px;
+    position: relative;
+    top: -23px;
+    left: -29px;
+}
+
+#ftosoa {
+    width: 110px;
+    height: 10px;
+    position: relative;
+    top: -16px;
+    left: -22px;
+}
+
+#ftlogos {
+    position: relative;
+    top: -50px;
+}
+
+.links {
+    color: inherit;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #80AF81;
+    text-decoration: none;
+}
+
+#fbms {
+    width: 200px;
+    height: 199px;
+    position: absolute;
     top: 0px;
+    left: 375px;
+}
+
+#fbbsu {
+    width: 107px;
+    height: 106px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+}
+
+#fbcs {
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    top: 23px;
+    left: 31px;
+}
+
+#fbosoa {
+    width: 109px;
+    height: 108px;
+    position: absolute;
+    top: 16px;
+    left: 23px;
+}
+
+#pi1 {
+    position: absolute;
+    top: 1090px;
+    right: -125px;
+}
+
+#sqrrt1 {
+    position: absolute;
+    top: 1480px;
+    left: -95px;
+}
+
+#upc {
+    position: absolute;
+    top: 1218px;
+    left: 230px;
+}
+
+#per1 {
+    position: absolute;
+    top: -100px;
+    right: -125px;
+}
+
+#pi2 {
+    position: absolute;
+    top: 675px;
+    left: -145px;
+}
+
+#sqrrt2 {
+    position: absolute;
+    top: 3100px;
+    right: -75px;
+}
+
+#per2 {
+    position: absolute;
+    top: 3560px;
+    left: -80px;
+}
+
+#pi3 {
+    position: absolute;
+    top: 4080px;
+    right: -115px;
 }
 
 .bgb {
